@@ -1,0 +1,95 @@
+/* 
+ * shutup.css 1.2
+ * web - peanut gallery = bliss
+ *
+ * by Steven Frank <stevenf@panic.com>
+ * <http://stevenf.com/pages/shutup/>
+ *
+ * Note:
+ *
+ * If you want to RE-ENABLE comments for a specific site, add an
+ * override after importing this file.  For example, to re-enable
+ * just Slashdot comments:
+ *  
+ * @import url("http://stevenf.com/pages/shutup/shutup-latest.css");
+ * 
+ * #commentlisting {
+ *     display: inherit !important;
+ * }
+ *
+ * Be aware that some sites may be affected by more than one rule.
+ *
+ */
+
+/* YouTube (standard and Feather interfaces) */
+
+#watch-comment-panel, #cm {
+	display: none !important;
+}
+
+/* Digg and other sites that use "comments" divs */
+
+.comments, #comments {
+	display: none !important;
+}
+
+/* CNN and other sites that use Disqus */
+
+#disqus_thread {
+	display: none !important;
+}
+
+/* Some Tumblr themes */
+
+.wrapper .main ol.notes { 
+	/* Notes will still be visible when revealed in the Dashboard */
+	display: none !important;
+}
+
+/* Ain't It Cool News */
+
+.block-talkback_story {
+	display: none !important;
+}
+
+/* VersionTracker */
+
+#prodReviews {
+	display: none !important;
+}
+
+/* MacUpdate */
+
+.revcontent {
+	display: none !important;
+}
+
+/* WordPress default Kubrick theme and descendents */
+
+.commentlist {
+	display: none !important;
+}
+
+/* Slashdot */
+
+#commentlisting {
+	display: none !important;
+}
+
+/* CBC News */
+
+#socialcomments { 
+	display: none !important; 
+}
+
+/* C|Net News.com */
+
+.commentwrapper {
+	display: none !important;
+}
+
+/* Reddit */
+
+.commentarea {
+	display: none !important;
+}
