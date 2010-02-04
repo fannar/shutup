@@ -3,7 +3,8 @@ Shutup
 
 **shutup.css** is a custom user stylesheet that can be applied to your browser to hide comments on many popular web sites without user intervention.
 
-To install:
+Installation
+------------
 
 1. Download the auto-updating [shutup.css](http://stevenf.com/pages/shutup/shutup.css) file to your system.
 	
