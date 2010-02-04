@@ -6,7 +6,7 @@ Shutup
 Installation
 ------------
 
-1. Download the auto-updating [shutup.css](http://stevenf.com/pages/shutup/shutup.css) file to your system.
+1. Download the auto-updating [shutup.css](http://github.com/bylinebreak/shutup/raw/master/shutup.css) file to your system.
 	
 	*If you don't trust a remotely-imported CSS file, or want to make customizations, you can download the source directly instead.*
 
@@ -30,3 +30,8 @@ Note on Patches/Pull Requests
 - Make your feature addition or bug fix.
 - Commit.
 - Send us a pull request. Bonus points for topic branches.
+
+Credit
+------
+
+This was entirely Steven Frank's idea. We are just maintaining the repository.
